@@ -30,14 +30,14 @@ const buildTargets: BuildOptions[] = [
   {
     format: 'cjs',
     name: 'development',
-    target: 'es2020',
+    target: 'es2019',
     minify: false,
     env: 'development',
   },
   {
     format: 'cjs',
     name: 'production.min',
-    target: 'es2020',
+    target: 'es2019',
     minify: true,
     env: 'production',
   },
@@ -45,7 +45,7 @@ const buildTargets: BuildOptions[] = [
   {
     format: 'esm',
     name: 'modern',
-    target: 'es2020',
+    target: 'es2019',
     minify: false,
     env: '',
     dts: true,
@@ -55,7 +55,7 @@ const buildTargets: BuildOptions[] = [
   {
     format: 'esm',
     name: 'legacy-esm',
-    target: 'es2020',
+    target: 'es2019',
     minify: false,
     env: '',
   },
@@ -63,7 +63,7 @@ const buildTargets: BuildOptions[] = [
   {
     format: 'esm',
     name: 'modern.development',
-    target: 'es2020',
+    target: 'es2019',
     minify: false,
     env: 'development',
   },
@@ -71,7 +71,7 @@ const buildTargets: BuildOptions[] = [
   {
     format: 'esm',
     name: 'modern.production.min',
-    target: 'es2020',
+    target: 'es2019',
     minify: true,
     env: 'production',
   },
